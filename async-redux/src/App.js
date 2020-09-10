@@ -11,12 +11,12 @@ function App(props) {
   return (
     <div className="App">
       <h1>Anime Index App</h1>
-      <span>-All your info on certain anime-</span>
+      <span>-All your info on everything anime-</span>
       <div className='SearchBar-Container'>
         <Search />
       </div>
       <div className='Anime Info'>
-        { anime.length > 0 ? <AnimeList /> : 'Nope' }
+        { anime.length > 0 ? <AnimeList /> : 'Use the Searchbar above to search for an anime series. Try searching for: Pokemon.' }
       </div>
     </div>
   );
